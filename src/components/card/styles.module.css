@@ -1,0 +1,9 @@
+.title {
+    @apply text-2xl font-light pb-4;
+  }
+ .contaienr {
+  @apply group relative;
+ }
+ .card_img {
+  @apply h-full w-full object-cover object-center lg:h-full lg:w-full;
+ } 
