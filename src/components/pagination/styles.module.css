@@ -1,0 +1,30 @@
+.root {
+  @apply bg-white px-4 py-3 flex items-center justify-center md:justify-between border-t border-gray-200 sm:px-6;
+}
+.container {
+  @apply flex flex-col md:flex-row md:flex-1 items-center justify-between;
+}
+.text {
+  @apply text-sm text-gray-700 pb-3 md:pb-0;
+}
+.value {
+  @apply font-medium;
+}
+.pagesContainer {
+  @apply relative z-0 inline-flex rounded-md shadow-sm -space-x-px;
+}
+.page {
+  @apply bg-white border-gray-300 text-gray-500 hover:bg-gray-100 cursor-pointer relative inline-flex items-center px-2 md:px-4 py-2 border text-xs md:text-sm font-medium;
+}
+.currentPage {
+  @apply z-10 bg-blue-400 border-blue-400 cursor-pointer text-white relative inline-flex items-center px-2 md:px-4 py-2 border text-xs md:text-sm font-medium cursor-pointer;
+}
+.hiddenPages {
+  @apply relative inline-flex items-center px-2 md:px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700;
+}
+.prevButton {
+  @apply relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 cursor-pointer;
+}
+.nextButton {
+  @apply relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 cursor-pointer;
+}

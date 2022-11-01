@@ -9,9 +9,12 @@ const initialState = {
 
   export const getRocketsData = createAsyncThunk(
     GET_ROCKET_DATA,
-    async () => {
+    async (offset) => {
       try {
-        const { data, status } = await axios.get(GET_ROCKETS_URL);
+        const { data, status } = await axios.get(GET_ROCKETS_URL,{params:{
+          limit:10,
+          offset:offset
+        }});
 
         if (status == 200) {
           return data;
