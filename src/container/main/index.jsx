@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getRocketsData } from "@redux/reducer/rockets/rocketsSlice";
 export const Main = () => {
-  const watchlaterDispatch = useDispatch();
+  const getRocketsDispatch = useDispatch();
 
   useEffect(() => {
-    watchlaterDispatch(getRocketsData());
-  }, [watchlaterDispatch]);
+    getRocketsDispatch(getRocketsData());
+  }, [getRocketsDispatch]);
 
-  const historyVideos = useSelector((state) => state.spacex.status);
-console.log(historyVideos)
+  const rockets = useSelector((state) => state.spacex?.rockets);
+
   return (
     <div className="md:p-2 border-b-4">
       <div className="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">

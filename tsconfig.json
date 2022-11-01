@@ -50,7 +50,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/container/index.jsx", "src/components/main/index.jsx", "pages/index.jsx", "pages/_document.jsx", "pages/_app.jsx", "src/redux/store.jsx", "src/redux/reducer/rockets/rocketsSlice.jsx"  ],
   "exclude": [
     "node_modules"
   ]
