@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Header, Main } from "@components";
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <Container>
       <Header />
