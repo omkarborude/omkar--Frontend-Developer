@@ -1,5 +1,9 @@
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./src/**/*.tsx"],
+  purge: [
+    "./src/components/**/*.{js,jsx}",
+    "./pages/**/*.jsx", "./src/**/*.jsx",
+    "./public/index.html",
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
