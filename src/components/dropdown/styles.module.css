@@ -1,0 +1,44 @@
+.root {
+  @apply relative w-full mt-2;
+}
+
+.textInput {
+  @apply w-full border-2 px-4 py-2 outline-none rounded-lg text-sm;
+}
+
+.list {
+  @apply absolute w-full rounded-lg z-50 bg-white shadow-lg select-none max-h-72 overflow-auto;
+}
+.hiddenList {
+  @apply hidden;
+}
+.listItem {
+  @apply px-4 hover:bg-gray-100;
+}
+.firstItem {
+  @apply pt-2 pb-1 rounded-t-lg;
+}
+.lastItem {
+  @apply pt-1 pb-2 rounded-b-lg;
+}
+.singleItem {
+  @apply py-2 rounded-lg;
+}
+.intermediateItem {
+  @apply py-1;
+}
+.hoveredItem {
+  @apply bg-gray-100;
+}
+.iconContainer {
+  @apply absolute inset-y-0 right-0 flex items-center px-2 text-gray-700;
+}
+.closeIcon {
+  @apply cursor-pointer;
+}
+.icon {
+  @apply fill-current h-full w-4 cursor-pointer;
+}
+.emptyMessage {
+  @apply px-4 py-2 text-gray-500;
+}
