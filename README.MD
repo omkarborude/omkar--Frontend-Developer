@@ -1,59 +1,17 @@
-# spacex
+# SpaceX Web App 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/smilegupta)
+[![Omkar.Pro](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/omkarborude) [![Made For Neog](https://img.shields.io/badge/Made%20For-Neog-orange.svg)](https://github.com/omkarborude)
+[![wakatime](https://wakatime.com/badge/github/omkarborude/neog-fashion.svg)](https://wakatime.com/badge/github/omkarborude/neog-fashion)
+
+🏆 SpaceX is Space Exploration Web App.
+
+###### **Here is the link to the [live demo](https://courageous-fudge-deca6f.netlify.app/)**
 
 
-This project was generated with [superplate](https://github.com/pankod/superplate).
+## Technology Stack Used
+![HTML](https://img.shields.io/badge/frontend-html-orange.svg?logo=html5&style=flat-square) 
+![CSS](https://img.shields.io/badge/frontend-css-yellowgreen.svg?logo=css3&style=flat-square)
+![JavaScript](https://img.shields.io/badge/frontend-javascript-blue.svg?logo=javascript&style=flat-square) 
+![ReactJS](https://img.shields.io/badge/React-JS-blue) 
 
-## Getting Started
-
-superplate is a Next.js all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.
-
-## Available Scripts
-
-### Running the development server.
-
-```bash
-    yarn dev
-```
-
-### Building for production.
-
-```bash
-    yarn build
-```
-
-### Running the production server.
-
-```bash
-    yarn start
-```
-
-## Learn More
-
-To learn more about **superplate**, please check out the [Documentation](https://github.com/pankod/superplate).
-
-
-### **TailwindCSS**
-
-A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
-
-[Go To Documentation](https://tailwindcss.com/docs)
-
-
-### **CSS / styled-jsx**
-
-Next.js comes with built-in support for CSS and styled-jsx. Styled-jsx is full, scoped and component-friendly CSS support for JSX (rendered on the server or the client).
-
-[Go To Documentation](https://github.com/vercel/styled-jsx)
-
-
-### **React Redux**
-
-Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test.
-
-[Go To Documentation](https://redux.js.org/introduction/getting-started)
-
-
-
-## License
-
-MIT
+- Front End - **HTML**, **CSS** , **ReactJS** , **Tailwind**
