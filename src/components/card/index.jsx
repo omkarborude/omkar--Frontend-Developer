@@ -1,8 +1,10 @@
 
-export const Card = ({item}) => {
+export const Card = ({item,onCardImage}) => {
   return (
     <div key={item.id} className="group relative">
-      <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+      <div 
+      onClick={() => onCardImage(item)}
+      className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
         <img
           src={item.flickr_images[0]}
           alt="dad ad"
