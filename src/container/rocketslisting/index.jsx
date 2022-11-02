@@ -42,7 +42,7 @@ export const RocketListing = () => {
       dataArray = dataArray.filter((item) => item.active == status);
     }
     if (search)
-      dataArray = dataArray.filter((item) => item.rocket_name.includes(search));
+      dataArray = dataArray.filter((item) => item.rocket_name.toLowerCase().includes(search?.toLowerCase()));
     return dataArray;
   };
 
